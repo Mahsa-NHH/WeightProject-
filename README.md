@@ -27,3 +27,9 @@ Notes and Limitations
 COPERT emission factors are used primarily for NOₓ imputation.
 
 The same framework can be extended to PM emissions, but this requires an additional classification of driving mode (urban, rural, motorway), which is not currently implemented.
+
+ ## fuel_consumption_estimation.ipynb
+This script imputes missing fuel consumption values for Norwegian passenger
+cars using technical and regulatory information from the REGTEK vehicle
+registry. The imputed fuel consumption values are intended for downstream
+use in emissions modeling (e.g. CO₂).
